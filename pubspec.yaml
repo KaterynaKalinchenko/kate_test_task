@@ -1,0 +1,23 @@
+name: kate_test_task
+description: Random joke test task
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  dio: ^4.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+  dart_code_metrics: ^4.14.0
+
+flutter:
+  uses-material-design: true
